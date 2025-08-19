@@ -5,7 +5,7 @@ $(function () {
     const imageCount = 9;
     const images = [];
     for (let i = 1; i <= imageCount; i++) {
-      images.push(`img/photos/img_${i}.jpg`);
+      images.push(`img/photos/img_${i}.webp`);
     }
     const mv = document.getElementById('js-mv-bg');
     if (!mv) return;
